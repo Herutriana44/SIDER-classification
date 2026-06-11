@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("/content/sider.csv")
+df = pd.read_csv("sider.csv")
 
 feature_col = 'smiles'
 label_col = [col for col in df.columns.tolist() if col not in feature_col]
