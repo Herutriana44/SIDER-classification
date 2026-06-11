@@ -25,7 +25,7 @@ jobs:
           python decision-tree.py
           python random-forest.py
           python logistic-regression.py
-          python xgboost.py
+          python xgboost_experiment.py
           python kernel-svm.py
 
       - name: Upload results
